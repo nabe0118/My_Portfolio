@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RAMENS</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">RAMENS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+
+        <% if user_signed_in? %>
+        <li class="navbar-nav-menu">
+            <%= link_to ' Home' ,root_path,  class: "glyphicon glyphicon-home" %>
+          </li>
+          <li class="navbar-nav-menu">
+            <%= link_to ' Users', '#', class: "glyphicon glyphicon-user"%>
+          </li>
+          <li class="navbar-nav-menu">
+            <%= link_to " logout", destroy_user_session_path, method: :delete, class: "glyphicon glyphicon-log-out" %>
+          </li>
+        <% else %>
+          <li class="navbar-nav-menu">
+            <%= link_to ' Home' ,root_path, class: "glyphicon glyphicon-home" %>
+          </li>
+          <li class="navbar-nav-menu">
+            <%= link_to " Sign up", new_user_registration_path, class: "glyphicon glyphicon-edit" %>
+          </li>
+          <li class="navbar-nav-menu">
+            <%= link_to " login", new_user_session_path,  class: "glyphicon glyphicon-log-in" %>
+          </li>
+        <% end %>
+      </ul>
+  </div>
+</nav>
+
+  <%= yield %>
+</body>
+</html>
