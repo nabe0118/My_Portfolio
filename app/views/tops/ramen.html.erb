@@ -1,0 +1,28 @@
+<!-- jqueryの読み込む -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- google map api -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqpSF03kZY59cglWAiYAvZca_S1WKfdIQ&libraries=places,geometry"
+></script>
+<!-- js -->
+
+<%= javascript_include_tag 'ramen.js' %>
+
+<!-- js -->
+<script type="text/javascript">
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {
+      lat: 35.658034, //緯度を設定
+      lng: 139.701636 //経度を設定
+    },
+    zoom: 1 //地図のズームを設定
+  });
+</script>
+<div id="map" style="height: 500px; width: 50%; margin: 2rem auto 0;"></div>
+<div class="getcurrentlocation_button">
+<button id="getcurrentlocation">現在地から近くのラーメン屋を検索</button>
+</div>
+<div id="shoplist">
+<table id="shoplist_table">
+  <thead><th></th><th>店舗名</th><th>評価</th><th>距離</th></thead>
+</table>
+</div>
