@@ -13,3 +13,4 @@ Rails.application.config.assets.paths << "#{Rails.root}/app/assets/videos"
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w( ramen.mp4)
+Rails.application.config.assets.precompile += %w( ramen.js )
