@@ -3,7 +3,7 @@ class TopsController < ApplicationController
   def index
   end
 
-  def show
+  def ramen
   end
-  
+
 end
