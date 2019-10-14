@@ -1,25 +1,34 @@
-# README
+# [RAMENS](https://ramens-nabe.com)
+***
+「RAMENS」とはラーメンを探せるアプリケーションです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+現在情報を取得して手軽に近くのラーメン屋さんを探せます。
 
-Things you may want to cover:
+## 開発背景
+***
+私はラーメンが好きでよく食べにいきます。
 
-* Ruby version
+出先で近くのラーメン屋さんを手軽に探せたらいいなという思いで作成しました。
 
-* System dependencies
+## 使用スキル
+***
+html/css/Javascript/JQuery/Ruby/RubyonRails
 
-* Configuration
+AWS(EC2,EIP,RDS,ELB,ALB)
 
-* Database creation
+## プログラミング歴/作成期間
+***
+2019/6〜　　　　プログラミングの勉強開始
 
-* Database initialization
+2019/8/1〜8/31 RAMENS設計〜開発〜デプロイ終了
 
-* How to run the test suite
+## 新しく取り入れた技術や機能
+***
+*AWS でインフラ構築を行った。
 
-* Services (job queues, cache servers, search engines, etc.)
+*Google Maps APIを使用し必要な情報を取得
 
-* Deployment instructions
+*SSL証明書を取得しhttpをhttps化
 
-* ...
-# My_Portfolio
+## 使い方
+***
