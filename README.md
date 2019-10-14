@@ -32,7 +32,7 @@ AWS(EC2,EIP,RDS,ELB,ALB)
 
 ## 使い方
 ***
-(https://user-images.githubusercontent.com/50729077/66743261-7a9acc80-eeb4-11e9-9472-1571278880a7.png)
+[スクリーンショット 2019-10-14 18 56 02](https://user-images.githubusercontent.com/50729077/66743261-7a9acc80-eeb4-11e9-9472-1571278880a7.png)
 
 Look for RAMENS を押してください。
 
