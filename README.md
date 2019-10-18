@@ -1,25 +1,57 @@
-# README
+# [RAMENS](https://ramens-nabe.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+「RAMENS」とはラーメンを探せるアプリケーションです。
 
-Things you may want to cover:
+現在情報を取得して手軽に近くのラーメン屋さんを探せます。
 
-* Ruby version
+## 開発背景
 
-* System dependencies
+私はラーメンが好きでよく食べにいきます。
 
-* Configuration
+出先で近くのラーメン屋さんを手軽に探せたらいいなという思いで作成しました。
 
-* Database creation
+## 使用スキル
 
-* Database initialization
+html/css/Javascript/JQuery/Ruby/RubyonRails
 
-* How to run the test suite
+AWS(EC2,EIP,RDS,ELB,ALB)
 
-* Services (job queues, cache servers, search engines, etc.)
+## プログラミング歴/作成期間
 
-* Deployment instructions
+2019/6〜　　　　プログラミングの勉強開始
 
-* ...
-# My_Portfolio
+2019/8/1〜8/31 RAMENS設計〜開発〜デプロイ終了
+
+## 新しく取り入れた技術や機能
+
+*AWS でインフラ構築を行った。
+
+*Google Maps APIを使用し必要な情報を取得
+
+*SSL証明書を取得しhttpをhttps化
+
+## 使い方
+
+![スクリーンショット 2019-10-14 18 56 02](https://user-images.githubusercontent.com/50729077/66743261-7a9acc80-eeb4-11e9-9472-1571278880a7.png)
+
+Look for RAMENS を押してください。
+
+***
+
+![スクリーンショット 2019-10-14 18 56 09](https://user-images.githubusercontent.com/50729077/66743918-07925580-eeb6-11e9-8cc6-4ad14c83c382.png)
+
+現在地から近くのラーメン屋を検索を押してください。
+
+***
+![スクリーンショット 2019-10-14 18 56 24](https://user-images.githubusercontent.com/50729077/66744165-aae36a80-eeb6-11e9-8264-cf98f32d038b.png)
+
+以上となります。
+
+見て頂きましてありがとうございました。
+
+### 作製者
+
+作製者渡邊直登
+
+
+
