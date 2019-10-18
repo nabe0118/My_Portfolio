@@ -1,3 +1,3 @@
 class Top < ApplicationRecord
-resources :tops
+  #resources :tops
 end
